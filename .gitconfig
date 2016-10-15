@@ -1,0 +1,15 @@
+[color]
+	ui = auto
+[core]
+	editor = 'C:/Program Files/Sublime Text 2/sublime_text' -n -w
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = tundelola
+	email = foladayo@aol.com
